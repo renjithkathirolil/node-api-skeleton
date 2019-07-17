@@ -1,2 +1,2 @@
-# furry-goggles
-Nodejs MongoDB Mocha Chai REST API
+# Nodejs MongoDB API Skeleton
+Nodejs MongoDB Mocha Chai REST API 
