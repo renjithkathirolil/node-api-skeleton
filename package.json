@@ -1,0 +1,52 @@
+{
+  "name": "node-express-mongodb-mocha",
+  "version": "1.0.0",
+  "description": "Node.js + Express + Mongodb + Mocha Skeleton Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=dev NODE_CONFIG_DIR=./src/config/ && nodemon -w src --exec \"babel-node src/app.js --presets @babel/preset-env\"",
+    "test": "export NODE_ENV=test NODE_CONFIG_DIR=./src/config/ && mocha --timeout 10000 --require @babel/register ./src/test/*.js ",
+    "populatedb": "babel-node --presets es2015 ./node_modules/pow-mongodb-fixtures/bin/mongofixtures node-express-skeleton-dev ./src/test/fixtures"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Node.js",
+    "wordlist"
+  ],
+  "author": "Renjith Kathirolil",
+  "license": "ISC",
+  "bugs": {
+    "url": "#"
+  },
+  "homepage": "#",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.4",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.1",
+    "node-gyp": "^4.0.0",
+    "pow-mongodb-fixtures": "^0.14.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-es2017": "^7.0.0-beta.53",
+    "@babel/register": "^7.4.4",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0"
+  }
+}
