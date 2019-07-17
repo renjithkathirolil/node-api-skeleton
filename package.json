@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "#"
+    "url": "https://github.com/renjithkathirolil/node-api-skeleton"
   },
   "keywords": [
     "REST",
@@ -21,9 +21,9 @@
   "author": "Renjith Kathirolil",
   "license": "ISC",
   "bugs": {
-    "url": "#"
+    "url": "https://github.com/renjithkathirolil/node-api-skeleton"
   },
-  "homepage": "#",
+  "homepage": "https://github.com/renjithkathirolil/node-api-skeleton",
   "dependencies": {
     "bcrypt": "^3.0.6",
     "body-parser": "^1.19.0",
