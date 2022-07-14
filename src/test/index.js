@@ -22,7 +22,7 @@ describe('Index', () => {
     });
   });
 
-  describe('/GET unexisting page', () => {
+  describe('/GET unexisting pagedssdfdfds', () => {
     it('it should return 404', (done) => {
       chai.request(app)
         .get('/unexisting')
